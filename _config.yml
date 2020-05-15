@@ -15,13 +15,13 @@ defaults:
 
 # --- 网站信息设置 ---
 # 下面填写你的博客标题
-title: varenyzc的世界
+title: Stevezxc的世界
 # 下面填写你的网络常用名
-name: varenyzc
+name: stevezxc
 # 下面填写你的座右铭或者是个性签名
-description: 不想做安卓的前端不是好程序员.
+description: 不像学C++的java程序员不是好前端
 # 你博客的 url 地址，比如：https://showzeng.github.io 或者是自定义的域名
-url: https://varenyzc.github.io
+url: https://stevezxc.github.io
 # 在页尾的版权时间信息，比如：2016-2018，默认是 2018 年
 copyright_time: 2020
 # 标签页的 logo 及博客的头像，如果你想引用网络图片资源，就取消下面的注解，并填写图片资源的 url 地址
@@ -40,10 +40,10 @@ show_excerpt: true
 # --- 社交链接 ---
 # 取消下面的注解，并填写相应的你要开启的社交链接
 #twitter: https://twitter.com/showzeng
-weibo: https://weibo.com/varen5201314
-github: https://github.com/varenyzc
+#weibo: https://weibo.com/varen5201314
+github: https://github.com/stevezxc
 # 邮件地址前面带上 mailto:
-email: mailto:465057895@qq.com
+email: mailto:3192711597@qq.com
 # RSS 订阅
 rss: true
 # --- 社交链接 ---
@@ -55,7 +55,7 @@ rss: true
 # cnzz (友盟统计)
 #cnzz_id: 1274425891
 # Baidu (百度统计)
-baidu_id: 1b3b1dd10417c649478b6e267a85591f
+#baidu_id: 1b3b1dd10417c649478b6e267a85591f
 # Google Analytics (谷歌统计)
 # google_id:
 # --- 站点统计 ---
@@ -74,7 +74,7 @@ baidu_id: 1b3b1dd10417c649478b6e267a85591f
 # --- 打赏设置 ---
 # 开启打赏，取消下面一行注解，并将微信和支付宝的收款二维码放置在 /assets/img/ 文件夹下
 # 同时图片的文件名必须为 alipay 和 wechat
-reward: true
+#reward: true
 # 打赏的推广语
 reward_description: 如果你觉得本文对你有帮助，不妨请我喝杯咖啡
 # --- 打赏设置 ---
@@ -82,7 +82,7 @@ reward_description: 如果你觉得本文对你有帮助，不妨请我喝杯咖
 
 # --- 评论设置 ---
 # 开启评论，取消下面一行注解，并填写相应评论运营商提供的 id，目前仅支持来必力和 gitment
-comment: true
+#comment: true
 # 来必力 uid
 # livere_uid:
 # gitment 用户主，即 GitHub 用户名
@@ -95,7 +95,7 @@ gitment_secret: 1bc48766be80fbcb2802679ab796d76ac4fafe44
 # --- 评论设置 ---
 
 # theme: jekyll-theme-minimalism
-remote_theme: showzeng/Minimalism
+#remote_theme: showzeng/Minimalism
 
 exclude:
   - new
