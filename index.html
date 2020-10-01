@@ -8,271 +8,145 @@
 		<h3>1</h3>
 		<ol>
 			<li>
-				<p>
-					光标在屏幕文本中的移动既可以用箭头键，也可以使用 h j k l 字母键。
-					<code>h</code> (左移)	<code>j</code> (下行)	<code>k</code> (上行)	<code>l</code> (右移)
+				<p>光标在屏幕文本中的移动既可以用箭头键，也可以使用 h j k l 字母键。<br/><code>h</code> (左移)	<code>j</code> (下行)	<code>k</code> (上行)	<code>l</code> (右移)
 				</p>
 			</li>
 			<li>
-				<p>
-					欲进入 Vim 编辑器(从命令行提示符)，请输入：<code>vim</code> &lt;FILE&gt; &lt;ENTER&gt;
-				</p>
+				<p>欲进入 Vim 编辑器(从命令行提示符)，请输入：<code>vim</code> &lt;FILE&gt; &lt;ENTER&gt;</p>
 			</li>
 			<li>
-				<p>
-					欲退出 Vim 编辑器，请输入 &lt;ESC&gt; <code>:q!</code> &lt;ENTER&gt; 放弃所有改动。
-					或者输入 &lt;ESC&gt; <code>:wq</code> &lt;ENTER&gt; 保存改动。
-				</p>
+				<p>欲退出 Vim 编辑器，请输入 &lt;ESC&gt; <code>:q!</code> &lt;ENTER&gt; 放弃所有改动。<br/>或者输入 &lt;ESC&gt; <code>:wq</code> &lt;ENTER&gt; 保存改动。</p>
 			</li>
 			<li>
-				<p>
-					在正常模式下删除光标所在位置的字符，请按： <code>x</code>
-				</p>
+				<p>在正常模式下删除光标所在位置的字符，请按： <code>x</code></p>
 			</li>
 			<li>
-				<p>
-					欲插入或添加文本，请输入：
-				</p>
-				<p>
-					<code>i</code> &lt;TEXT&gt; &lt;ESC&gt;		在光标前插入文本
-					<code>A</code> &lt;TEXT&gt; &lt;ESC&gt;		在一行后添加文本
-				</p>
+				<p>欲插入或添加文本，请输入：</p>
+				<p><code>i</code> &lt;TEXT&gt; &lt;ESC&gt;		在光标前插入文本<br/><code>A</code> &lt;TEXT&gt; &lt;ESC&gt;		在一行后添加文本</p>
+			</li>
+			<li>
+				<p>特别提示：按下 &lt;ESC&gt; 键会带您回到正常模式或者撤消一个不想输入或部分完整的命令。</p>
 			</li>
 		</ol>
-
-		<p>
-			特别提示：按下 &lt;ESC&gt; 键会带您回到正常模式或者撤消一个不想输入或部分完整的命令。
-		</p>
-
 		<h3>2</h3>
-
 		<ol>
 			<li>
-				<p>
-					欲从当前光标删除至下一个单词，请输入： <code>dw</code>
-				</p>
+				<p>欲从当前光标删除至下一个单词，请输入： <code>dw</code></p>
 			</li>
 			<li>
-				<p>
-					欲从当前光标删除至当前行末尾，请输入： <code>d$</code>
-				</p>
+				<p>欲从当前光标删除至当前行末尾，请输入： <code>d$</code></p>
 			</li>
 			<li>
-				<p>
-					欲删除整行，请输入： <code>dd</code>
-				</p>
+				<p>欲删除整行，请输入： <code>dd</code></p>
 			</li>
 			<li>
-				<p>
-					欲重复一个动作，请在它前面加上一个数字： <code>2w</code>
-				</p>
+				<p>欲重复一个动作，请在它前面加上一个数字： <code>2w</code></p>
 			</li>
 			<li>
-				<p>
-					在正常模式下修改命令的格式是：
-					<code>operator [number] motion</code>
-					其中：
-						<code>operator</code>	- 操作符，代表要做的事情，比如 <code>d</code> 代表删除
-						<code>[number]</code>	- 可以附加的数字，代表动作重复的次数
-						<code>motion</code>	- 动作，代表在所操作的文本上的移动，例如 <code>w</code> 代表单词(word)， <code>$</code> 代表行末等等。
-				</p>
+				<p>在正常模式下修改命令的格式是：<br/><code>operator [number] motion</code><br/>其中：<br/><code>operator</code>	- 操作符，代表要做的事情，比如 <code>d</code> 代表删除<br/><code>[number]</code>	- 可以附加的数字，代表动作重复的次数<br/><code>motion</code>	- 动作，代表在所操作的文本上的移动，例如 <code>w</code> 代表单词(word)， <code>$</code> 代表行末等等。</p>
 			</li>
 			<li>
-				<p>
-					欲移动光标到行首，请按数字0键： <code>0</code>
-				</p>
+				<p>欲移动光标到行首，请按数字0键： <code>0</code></p>
 			</li>
 			<li>
-				<p>
-					欲撤消以前的操作，请输入： <code>u</code> (小写的u)
-					欲撤消在一行中所做的改动，请输入： <code>U</code> (大写的U)
-					欲撤消以前的撤消命令，恢复以前的操作结果，请输入： &lt;CTRL-R&gt;
-				</p>
+				<p>欲撤消以前的操作，请输入： <code>u</code> (小写的u)<br/>欲撤消在一行中所做的改动，请输入： <code>U</code> (大写的U)<br/>欲撤消以前的撤消命令，恢复以前的操作结果，请输入： &lt;CTRL-R&gt;</p>
 			</li>
 		</ol>
-
 		<h3>3</h3>
-
 		<ol>
 			<li>
-				<p>
-					要重新置入已经删除的文本内容，请按小写字母 <code>p</code> 键。该操作可以将已删除的文本内容置于光标之后。如果最后一次删除的是一个整行，那么该行将置于当前光标所在行的下一行。
-				</p>
+				<p>要重新置入已经删除的文本内容，请按小写字母 <code>p</code> 键。该操作可以将已删除的文本内容置于光标之后。如果最后一次删除的是一个整行，那么该行将置于当前光标所在行的下一行。</p>
 			</li>
 			<li>
-				<p>
-					要替换光标所在位置的字符，请输入小写的 r 和要替换掉原位置字符的新字符即可。
-				</p>
+				<p>要替换光标所在位置的字符，请输入小写的 r 和要替换掉原位置字符的新字符即可。</p>
 			</li>
 			<li>
-				<p>
-					更改类命令允许您改变从当前光标所在位置直到动作指示的位置中间的文本。比如输入 <code>ce</code> 可以替换当前光标到单词的末尾的内容；输入 <code>c$</code> 可以替换当前光标到行末的内容。
-				</p>
+				<p>更改类命令允许您改变从当前光标所在位置直到动作指示的位置中间的文本。比如输入 <code>ce</code> 可以替换当前光标到单词的末尾的内容；输入 <code>c$</code> 可以替换当前光标到行末的内容。</p>
 			</li>
 			<li>
-				<p>
-					更改类命令的格式是：
-					<code>c [number] motion</code>
-				</p>
+				<p>更改类命令的格式是：<br/><code>c [number] motion</code></p>
 			</li>
 		</ol>
-
 		<h3>4</h3>
-
 		<ol>
 			<li>
-				<p>
-					&lt;CTRL-G&gt; 用于显示当前光标所在位置和文件状态信息。
-					<code>G</code> 用于将光标跳转至文件最后一行。
-					先敲入一个行号然后输入大写 <code>G</code> 则是将光标移动至该行号代表的行。
-					<code>gg</code> 用于将光标跳转至文件第一行。
-				</p>
+				<p>&lt;CTRL-G&gt; 用于显示当前光标所在位置和文件状态信息。<br/><code>G</code> 用于将光标跳转至文件最后一行。<br/>先敲入一个行号然后输入大写 <code>G</code> 则是将光标移动至该行号代表的行。<br/><code>gg</code> 用于将光标跳转至文件第一行。</p>
 			</li>
 			<li>
-				<p>
-					输入 <code>/</code> 然后紧随一个字符串是在当前所编辑的文档中正向查找该字符串。
-					输入 <code>?</code> 然后紧随一个字符串则是在当前所编辑的文档中反向查找该字符串。
-					完成一次查找之后按 <code>n</code> 键是重复上一次的命令，可在同一方向上查
-					找下一个匹配字符串所在；或者按大写 <code>N</code> 向相反方向查找下一匹配字符串所在。
-					&lt;CTRL-O&gt; 带您跳转回较旧的位置， &lt;CTRL-I&gt; 则带您到较新的位置。
-				</p>
+				<p>输入 <code>/</code> 然后紧随一个字符串是在当前所编辑的文档中正向查找该字符串。<br/>输入 <code>?</code> 然后紧随一个字符串则是在当前所编辑的文档中反向查找该字符串。<br/>完成一次查找之后按 <code>n</code> 键是重复上一次的命令，可在同一方向上查<br/>找下一个匹配字符串所在；或者按大写 <code>N</code> 向相反方向查找下一匹配字符串所在。<br/>&lt;CTRL-O&gt; 带您跳转回较旧的位置， &lt;CTRL-I&gt; 则带您到较新的位置。</p>
 			</li>
 			<li>
-				<p>
-					如果光标当前位置是括号 <code>( ) [ ] { }</code> ，按 <code>%</code> 会将光标移动到配对的括号上。
-				</p>
+				<p>如果光标当前位置是括号 <code>( ) [ ] { }</code> ，按 <code>%</code> 会将光标移动到配对的括号上。</p>
 			</li>
 			<li>
-				<p>
-					在一行内替换头一个字符串 old 为新的字符串 new，请输入  <code>:s/old/new</code>
-					在一行内替换所有的字符串 old 为新的字符串 new，请输入  <code>:s/old/new/g</code>
-					在两行内替换所有的字符串 old 为新的字符串 new，请输入  <code>:#,#s/old/new/g</code>
-					在文件内替换所有的字符串 old 为新的字符串 new，请输入  <code>:%s/old/new/g</code>
-					进行全文替换时询问用户确认每个替换需添加 c 标志        <code>:%s/old/new/gc</code>
-				</p>
+				<p>在一行内替换头一个字符串 old 为新的字符串 new，请输入  <code>:s/old/new</code><br/>在一行内替换所有的字符串 old 为新的字符串 new，请输入  <code>:s/old/new/g</code><br/>在两行内替换所有的字符串 old 为新的字符串 new，请输入  <code>:#,#s/old/new/g</code><br/>在文件内替换所有的字符串 old 为新的字符串 new，请输入  <code>:%s/old/new/g</code><br/>进行全文替换时询问用户确认每个替换需添加 c 标志        <code>:%s/old/new/gc</code></p>
 			</li>
 		</ol>
-
 		<h3>5</h3>
-
 		<ol>
 			<li>
-				<p>
-					<code>:!command</code> 用于执行一个外部命令 command 。
-				</p>
-				<p>
-					请看一些实际例子：
-					(MS-DOS)			(Unix)
-					<code>:!dir</code>				<code>:!ls</code>			- 用于显示当前目录的内容。
-					<code>:!del FILENAME</code>	<code>:!rm FILENAME</code>	- 用于删除名为 FILENAME 的文件。
-				</p>
+				<p><code>:!command</code> 用于执行一个外部命令 command 。</p>
+				<p>请看一些实际例子：<br/>(MS-DOS)			(Unix)<br/><code>:!dir</code>				<code>:!ls</code>			- 用于显示当前目录的内容。<br/><code>:!del FILENAME</code>	<code>:!rm FILENAME</code>	- 用于删除名为 FILENAME 的文件。</p>
 			</li>
 			<li>
-				<p>
-					<code>:w FILENAME</code> 可将当前 VIM 中正在编辑的文件保存到名为 FILENAME 的文件中。
-				</p>
+				<p><code>:w FILENAME</code> 可将当前 VIM 中正在编辑的文件保存到名为 FILENAME 的文件中。</p>
 			</li>
 			<li>
-				<p>
-					<code>v motion :w FILENAME</code> 可将当前编辑文件中可视模式下选中的内容保存到文件 FILENAME 中。
-				</p>
+				<p><code>v motion :w FILENAME</code> 可将当前编辑文件中可视模式下选中的内容保存到文件 FILENAME 中。</p>
 			</li>
 			<li>
-				<p>
-					<code>:r FILENAME</code> 可提取磁盘文件 FILENAME 并将其插入到当前文件的光标位置后面。
-				</p>
+				<p><code>:r FILENAME</code> 可提取磁盘文件 FILENAME 并将其插入到当前文件的光标位置后面。</p>
 			</li>
 			<li>
-				<p>
-					<code>:r !dir</code> 可以读取 dir 命令的输出并将其放置到当前文件的光标位置后面。
-				</p>
+				<p><code>:r !dir</code> 可以读取 dir 命令的输出并将其放置到当前文件的光标位置后面。</p>
 			</li>
 		</ol>
-
 		<h3>6</h3>
-
 		<ol>
 			<li>
-				<p>
-					输入小写的 <code>o</code> 可以在光标下方打开新的一行并进入插入模式。
-					输入大写的 <code>O</code> 可以在光标上方打开新的一行。
-				</p>
+				<p>输入小写的 <code>o</code> 可以在光标下方打开新的一行并进入插入模式。<br/>输入大写的 <code>O</code> 可以在光标上方打开新的一行。</p>
 			</li>
 			<li>
-				<p>
-					输入小写的 <code>a</code> 可以在光标所在位置之后插入文本。
-					输入大写的 <code>A</code> 可以在光标所在行的行末之后插入文本。
-				</p>
+				<p>输入小写的 <code>a</code> 可以在光标所在位置之后插入文本。<br/>输入大写的 <code>A</code> 可以在光标所在行的行末之后插入文本。</p>
 			</li>
 			<li>
-				<p>
-					<code>e</code> 命令可以使光标移动到单词末尾。
-				</p>
+				<p><code>e</code> 命令可以使光标移动到单词末尾。</p>
 			</li>
 			<li>
-				<p>
-					操作符 <code>y</code> 复制文本， <code>p</code> 粘贴先前复制的文本。
-				</p>
+				<p>操作符 <code>y</code> 复制文本， <code>p</code> 粘贴先前复制的文本。</p>
 			</li>
 			<li>
-				<p>
-					输入大写的 <code>R</code> 将进入替换模式，直至按 &lt;ESC&gt; 键回到正常模式。
-				</p>
+				<p>输入大写的 <code>R</code> 将进入替换模式，直至按 &lt;ESC&gt; 键回到正常模式。</p>
 			</li>
 			<li>
-				<p>
-					输入 <code>:set xxx</code> 可以设置 xxx 选项。一些有用的选项如下：
-				</p>
-				<p>
-					&#39;ic&#39;	&#39;ignorecase&#39;	查找时忽略字母大小写
-					&#39;is&#39;	&#39;incsearch&#39;		查找短语时显示部分匹配
-					&#39;hls&#39;	&#39;hlsearch&#39;		高亮显示所有的匹配短语
-					选项名可以用完整版本，也可以用缩略版本。
-				</p>
+				<p>输入 <code>:set xxx</code> 可以设置 xxx 选项。一些有用的选项如下：</p>
+				<p>&#39;ic&#39;	&#39;ignorecase&#39;	查找时忽略字母大小写<br/>&#39;is&#39;	&#39;incsearch&#39;		查找短语时显示部分匹配<br/>&#39;hls&#39;	&#39;hlsearch&#39;		高亮显示所有的匹配短语<br/>选项名可以用完整版本，也可以用缩略版本。</p>
 			</li>
 			<li>
-				<p>
-					在选项前加上 <code>no</code> 可以关闭选项：  <code>:set noic</code>
-				</p>
+				<p>在选项前加上 <code>no</code> 可以关闭选项：  <code>:set noic</code></p>
 			</li>
 		</ol>
-
 		<h3>7</h3>
-
 		<ol>
 			<li>
-				<p>
-					输入 <code>:help</code> 或者按 &lt;F1&gt; 键或 &lt;Help&gt; 键可以打开帮助窗口。
-				</p>
+				<p>输入 <code>:help</code> 或者按 &lt;F1&gt; 键或 &lt;Help&gt; 键可以打开帮助窗口。</p>
 			</li>
 			<li>
-				<p>
-					输入 <code>:help cmd</code> 可以找到关于 cmd 命令的帮助。
-				</p>
+				<p>输入 <code>:help cmd</code> 可以找到关于 cmd 命令的帮助。</p>
 			</li>
 			<li>
-				<p>
-					输入 &lt;CTRL-W&gt; &lt;CTRL-W&gt;  可以使您在窗口之间跳转。
-				</p>
+				<p>输入 &lt;CTRL-W&gt; &lt;CTRL-W&gt;  可以使您在窗口之间跳转。</p>
 			</li>
 			<li>
-				<p>
-					输入 <code>:q</code> 以关闭帮助窗口
-				</p>
+				<p>输入 <code>:q</code> 以关闭帮助窗口</p>
 			</li>
 			<li>
-				<p>
-					您可以创建一个 vimrc 启动脚本文件用来保存您偏好的设置。
-				</p>
+				<p>您可以创建一个 vimrc 启动脚本文件用来保存您偏好的设置。</p>
 			</li>
 			<li>
-				<p>
-					当输入 : 命令时，按 &lt;CTRL-D&gt; 可以查看可能的补全结果。
-					按 &lt;TAB&gt; 可以使用一个补全。
-				</p>
+				<p>当输入 : 命令时，按 &lt;CTRL-D&gt; 可以查看可能的补全结果。<br/>按 &lt;TAB&gt; 可以使用一个补全。</p>
 			</li>
 		</ol>
-		<br/>
-		<p align="center">Stevezxc</p>
+		<br/><p align="center">Stevezxc</p>
 	</body>
 </html>
