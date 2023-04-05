@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charaset="utf-8" />
-		<title>为什么是我</title>
-	</head>
-	<body>
-		<p>中文測試</p>
-		<img src="./jan_mayen.jpg" alt="A polar bear.">
-		<br/><p align="center">Stevezxc</p>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <style>
+        body {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #212121;
+            padding: 1rem;
+        }
+        #logo {
+            height: 4rem;
+            width: 4rem;
+        }
+        nav {
+            display: flex;
+        }
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            color: #4fc3f7;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 1rem;
+        }
+        .icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+            color: #4fc3f7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="jan_mayen.jpg" alt="Logo">
+        <nav>
+            <a href="#Home">Home</a>
+			<a href="#About">About</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Stevezxc's Homepage</h1>
+        <p>Hello, my name is Stevezxc.</p>
+		<p>为什么是我</p>
+        <h2>About</h2>
+        <p>This page was written by ChatGPT.</p>
+        <ul>
+            <li><i class="icon fas fa-code"></i>HTML</li>
+            <li><i class="icon fas fa-code"></i>CSS</li>
+            <li><i class="icon fas fa-code"></i>JavaScript</li>
+            <li><i class="icon fab fa-react"></i>React</li>
+        </ul>
+		<p align="center">Stevezxc</p>
+    </main>
+</body>
 </html>
