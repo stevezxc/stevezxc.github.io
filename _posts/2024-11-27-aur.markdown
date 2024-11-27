@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "AUR"
+date:   2024-11-27 21:10:00 +0800
+categories: code
+---
+Check out [AUR page](https://aur.archlinux.org/packages/?SeB=m&K=stevezxc) for more information on the packages maintained.

@@ -4,5 +4,3 @@
 
 layout: home
 ---
-## AUR
-Check out [AUR page](https://aur.archlinux.org/packages/?SeB=m&K=stevezxc) for more information on the packages maintained.
