@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "创建和提交 AUR 包"
+title: "如何编写 AUR 软件包"
 date: 2024-12-14 14:05:00 +0800
 categories: code
 ---
 
-# 创建和提交 AUR 包的指南
+# 如何编写 AUR 软件包
 
 ## 原理
 
