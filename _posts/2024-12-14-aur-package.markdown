@@ -81,7 +81,7 @@ $ git -c init.defaultBranch=master init
 $ git remote add origin ssh://aur@aur.archlinux.org/XXX.git
 ```
 
-	其中，`XXX` 是包名。
+>其中，`XXX` 是包名。
 
 ### 4. 提交包
 
@@ -102,7 +102,7 @@ git add PKGBUILD .SRCINFO
 git commit -m "Initial commit"
 ```
 
-	如果有自定义 patch 或其他依赖文件，也需一并添加。
+>如果有自定义 patch 或其他依赖文件，也需一并添加。
 
 #### 推送到 AUR
 
