@@ -26,12 +26,36 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username:  stevezxc
-author: Steve Zhou
+author:
+  name: Steve Zhou
+  email: "stevezhou586@gmail.com"
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "jekyll/minima@bf9ef98"
 plugins:
   - jekyll-feed
+
+page_excerpts: true
+excerpt_separator: <!--more-->
+
+minima:
+  skin: auto
+  nav_pages:
+    - friends.md
+    - about.markdown
+  social_links:
+    - title: My GitHub
+      icon: github
+      url: "https://github.com/stevezxc"
+    - title: My QQ
+      icon: qq
+      url: "https://qm.qq.com/q/Su25S9nM8S"
+  show_excerpts: true
+
+collections:
+  friends:
+    people: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,7 +64,7 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

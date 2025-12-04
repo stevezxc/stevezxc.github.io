@@ -5,7 +5,8 @@ date: 2024-12-14 14:05:00 +0800
 categories: code
 ---
 
-# 如何编写 AUR 软件包
+第一次维护 AUR 包，记录一些流程和注意事项。
+<!--more-->
 
 ## 原理
 
@@ -56,7 +57,7 @@ ssh-keygen -f ~/.ssh/aur
 
 然后编辑 `~/.ssh/config` ，添加：
 
-```
+```ssh
 Host aur.archlinux.org
   IdentityFile ~/.ssh/aur
   User aur
@@ -65,7 +66,7 @@ Host aur.archlinux.org
 检查公钥：
 
 ```bash
-$ cat ~/.ssh/aur.pub
+cat ~/.ssh/aur.pub
 ```
 
 ### 2. 添加公钥
@@ -77,8 +78,8 @@ $ cat ~/.ssh/aur.pub
 进入 PKGBUILD 所在目录，初始化仓库：
 
 ```bash
-$ git -c init.defaultBranch=master init
-$ git remote add origin ssh://aur@aur.archlinux.org/XXX.git
+git -c init.defaultBranch=master init
+git remote add origin ssh://aur@aur.archlinux.org/XXX.git
 ```
 
 >其中，`XXX` 是包名。

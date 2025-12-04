@@ -5,7 +5,8 @@ date: 2024-12-11 00:16:00 +0800
 categories: technology
 ---
 
-# 在 Surface Go 2 上配置 Arch Linux
+折腾了一下 Surface Go 2 上的 Arch Linux，记录一些配置细节。
+<!--more-->
 
 ## 安全启动
 
@@ -24,9 +25,9 @@ Go 2 的安全启动似乎只支持微软签名证书的操作系统。所以每
 ### 摄像头
 
 ```bash
-$ sudo pacman -S libcamera gst-plugin-libcamera
-$ sudo usermod -aG video $USER
-$ newgrp video
+sudo pacman -S libcamera gst-plugin-libcamera
+sudo usermod -aG video $USER
+newgrp video
 ```
 
 `gst-plugin-libcamera` 可使基于 GStreamer 的软件支持 libcamera。
@@ -43,8 +44,8 @@ Xournal++ 目前体验最好：
 ### 续航优化
 
 ```bash
-$ sudo pacman -S tlp
-$ sudo systemctl enable tlp.service
+sudo pacman -S tlp
+sudo systemctl enable tlp.service
 ```
 
 默认配置即可实现一天的续航。
