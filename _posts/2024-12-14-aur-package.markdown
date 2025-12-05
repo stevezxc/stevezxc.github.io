@@ -2,10 +2,12 @@
 layout: post
 title: "如何编写 AUR 软件包"
 date: 2024-12-14 14:05:00 +0800
+modified_date: now
+author: Stevezxc
 categories: code
 ---
-
 第一次维护 AUR 包，记录一些流程和注意事项。
+
 <!--more-->
 
 ## 原理
@@ -82,7 +84,7 @@ git -c init.defaultBranch=master init
 git remote add origin ssh://aur@aur.archlinux.org/XXX.git
 ```
 
->其中，`XXX` 是包名。
+> 其中，`XXX` 是包名。
 
 ### 4. 提交包
 
@@ -103,7 +105,7 @@ git add PKGBUILD .SRCINFO
 git commit -m "Initial commit"
 ```
 
->如果有自定义 patch 或其他依赖文件，也需一并添加。
+> 如果有自定义 patch 或其他依赖文件，也需一并添加。
 
 #### 推送到 AUR
 

@@ -2,6 +2,8 @@
 layout: post
 title:  "AUR"
 date:   2024-11-27 21:10:00 +0800
+modified_date: now
+author: Stevezxc
 categories: code
 ---
 Check out my [AUR page](https://aur.archlinux.org/packages/?SeB=m&K=stevezxc) for more information on the packages maintained.

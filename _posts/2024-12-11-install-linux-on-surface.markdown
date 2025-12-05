@@ -2,10 +2,12 @@
 layout: post
 title: "在 Surface Go 2 上配置 Arch Linux"
 date: 2024-12-11 00:16:00 +0800
+modified_date: now
+author: Stevezxc
 categories: technology
 ---
-
 折腾了一下 Surface Go 2 上的 Arch Linux，记录一些配置细节。
+
 <!--more-->
 
 ## 安全启动

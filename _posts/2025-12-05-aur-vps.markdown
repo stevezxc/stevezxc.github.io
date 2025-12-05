@@ -1,0 +1,36 @@
+---
+layout: post
+title: "使用 VPS 搭建 AUR 自动构建服务"
+date: 2025-12-05 15:47:48 +0800
+modified_date: now
+author: Stevezxc
+categories: code
+---
+
+之前一直手动构建 AUR 包，不堪其扰，遂决定搭建一个自动构建服务。
+
+<!--more-->
+
+## 选择 VPS
+
+选择了 [GCP](https://cloud.google.com/) 的 e2-micro 实例，无他，Google 太善，免费送。
+
+## 环境配置
+
+目前主流的 VPS 没有提供 Arch Linux 镜像的，所以选用 Docker 来运行 Arch Linux 环境。那么，主机系统则无伤大雅，我是 Debian 爱好者，遂选 Debian 13。
+
+1. [安装 Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+
+2. 部署 AUR 构建服务
+
+    Dockerfile 及相关文件已放置在 [aur-vps](https://github.com/stevezxc/aur-vps) 上，可自行更改。
+
+## 注意事项
+
+1. 由于 AUR 包的构建需要较多的资源，建议使用至少 2GB 内存的 VPS。作者没有经费，所以使用了 1GB 内存的 e2-micro 实例，实为隐患。
+
+2. 不同 AUR 包的构建策略不同，需自行编写。可参考作者编写的构建脚本扩展。
+
+3. 如何上传至 AUR 库可参考上一篇 [文章]({% post_url 2024-12-14-aur-package %})。
+
+4. 不建议使用国内的 VPS 服务商，访问 GitHub 是一大问题。
