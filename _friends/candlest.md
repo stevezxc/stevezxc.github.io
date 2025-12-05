@@ -1,6 +1,6 @@
 ---
 name: Candlest
 link: https://blog.candlest.cc/
-avatar: https://blog.candlest.cc/favicon.svg
+avatar: https://avatars.githubusercontent.com/u/125652899
 ---
 蜡烛
