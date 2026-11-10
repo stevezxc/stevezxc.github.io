@@ -1,0 +1,25 @@
+Web fonts in this directory
+===========================
+
+Each subdirectory holds one font as unicode-range woff2 subsets plus the
+stylesheet that declares them, produced by scripts/split-fonts.mjs from the
+upstream release files. Each font is a modified version distributed under
+its own license; the license text and copyright notice are in its directory.
+The fonts are separate files combined only by the CSS font-family stack;
+no glyphs of one font are merged into another.
+
+SiteHei/  CSS family "Site Hei"
+    Derived from LXGW Neo XiHei Plus v1.307, Copyright (c) 2021-2026 LXGW; Information-technology Promotion Agency, Japan (IPA), 2003-2019 (https://github.com/lxgw/LxgwNeoXiHei). IPA Font License Agreement v1.0; this Derived Program is licensed under the same agreement. Renamed because a Derived Program may not use the name of the Licensed Program.
+    Changes: 167 unicode-range woff2 slices; Private Use Area removed (1 codepoints).
+    To replace this Derived Program with the Original Program, download the unmodified font from https://github.com/lxgw/LxgwNeoXiHei/releases and use it in place of these files (the subset files were produced from it by scripts/split-fonts.mjs in this site's repository, without changing any glyph outlines).
+    License: IPA Font License Agreement v1.0, SiteHei/IPA-LICENSE.txt
+
+YsabeauOffice/  CSS family "Ysabeau Office"
+    Ysabeau Office Medium v2.006, Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau). OFL 1.1, no Reserved Font Name.
+    Changes: 12 unicode-range woff2 slices; U+2014, U+2026 removed so the CJK font renders them; only default OpenType layout features kept; CSS size-adjust 107.1%.
+    License: SIL Open Font License 1.1, YsabeauOffice/OFL.txt
+
+SiteMonoLatin/  CSS family "Site Mono Latin"
+    Derived from Monaspace Argon NF Medium v1.400, Copyright (c) 2023 GitHub, Inc. (https://github.com/githubnext/monaspace). OFL 1.1. Renamed because "Monaspace" and "Argon" are Reserved Font Names and this is a Modified Version.
+    Changes: 20 unicode-range woff2 slices; Private Use Area removed (9197 codepoints); U+2014, U+2026 removed so the CJK font renders them; CSS size-adjust 80.6452%.
+    License: SIL Open Font License 1.1, SiteMonoLatin/OFL.txt
