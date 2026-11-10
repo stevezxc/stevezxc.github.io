@@ -20,6 +20,7 @@
 
 title: Stevezxc
 email: stevezhou586@gmail.com
+lang: zh-CN
 description: >- # this means to ignore newlines until "baseurl:"
   Ceaseless Seeker
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -42,6 +43,8 @@ excerpt_separator: <!--more-->
 minima:
   skin: auto
   nav_pages:
+    - code.md
+    - technology.md
     - friends.md
     - about.markdown
   social_links:
